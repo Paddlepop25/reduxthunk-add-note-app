@@ -1,3 +1,8 @@
+Simple add-note app with Express, React, Typescript, Redux Thunk.
+Work in progress, to switch to Redux Saga next...
+
+Referencing this youtube video by [Maksim Ivavov](https://www.youtube.com/watch?v=lmyKHYmgUYc&list=PLIvCYh5AD3Hxmju87QzamE7aEB33Aqv1u&index=2)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
