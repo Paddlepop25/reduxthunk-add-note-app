@@ -21,6 +21,7 @@ export const setNotes = (notes: string[]): SetNotesAction => ({
 	payload: notes,
 });
 
+// these are action creators
 export const saveNotes = (notes: string[]): SaveNotesAction => ({
 	type: SAVE_NOTES_DB,
 	payload: notes,

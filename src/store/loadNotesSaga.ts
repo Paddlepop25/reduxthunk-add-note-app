@@ -13,6 +13,6 @@ export function* loadNotesWatcher() {
 }
 
 function* loadNotesFlow(): any {
-	const notes = yield call(getNotesDB);
-	yield put(setNotes(notes));
+	const notes = yield call(getNotesDB); // get data from backend (api call in getNotesDB)
+	yield put(setNotes(notes)); // dispatch another action to update state with notes
 }

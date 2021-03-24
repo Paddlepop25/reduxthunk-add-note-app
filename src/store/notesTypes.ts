@@ -1,7 +1,7 @@
 export const ADD_NOTE = "ADD_NOTE";
 export const SET_NOTES = "SET_NOTES";
-export const SAVE_NOTES_DB = "SAVE_NOTES";
-export const LOAD_NOTES_DB = "LOAD_NOTES";
+export const SAVE_NOTES_DB = "SAVE_NOTES_DB";
+export const LOAD_NOTES_DB = "LOAD_NOTES_DB";
 
 export type AddNoteAction = {
 	type: typeof ADD_NOTE;
