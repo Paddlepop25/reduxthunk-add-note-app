@@ -1,0 +1,5 @@
+with Redux Thunk
+https://www.youtube.com/watch?v=lmyKHYmgUYc&list=PLIvCYh5AD3Hxmju87QzamE7aEB33Aqv1u&index=2
+
+with Redux Saga (in saga branch)
+https://www.youtube.com/watch?v=_TwzWUUTPpk&list=PLIvCYh5AD3Hxmju87QzamE7aEB33Aqv1u&index=3

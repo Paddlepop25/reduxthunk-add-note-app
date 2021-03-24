@@ -1,4 +1,5 @@
 import { Dispatch } from "redux";
+import { NotesState } from "./notesReducer";
 import { ADD_NOTE, NoteActions, SET_NOTES } from "./notesTypes";
 import { AddNoteAction, SetNotesAction } from "./notesTypes";
 
@@ -33,7 +34,7 @@ export const saveToBackend = () => async (
 	await fetch("http://localhost:4000/postnotes", {
 		method: "POST",
 		headers: {
-			// Accept: "application/json",
+			Accept: "application/json",
 			"Content-type": "application/json",
 		},
 		body: JSON.stringify(notes),
