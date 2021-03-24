@@ -1,7 +1,7 @@
 import { NewNoteInput } from "./components/NewNoteInput";
 import { useSelector, useDispatch } from "react-redux";
 import { NotesState } from "./store/notesReducer";
-import { addNote, saveToBackend, loadFromBackend } from "./store/notesActions";
+import { addNote, saveNotes, loadNotes } from "./store/notesActions";
 
 // react-redux hooks
 // useSelector: a function that parse state object and get the required fields
@@ -24,11 +24,11 @@ function App() {
 	};
 
 	const onSave = () => {
-		dispatch(saveToBackend());
+		dispatch(saveNotes(notes));
 	};
 
 	const onLoad = () => {
-		dispatch(loadFromBackend());
+		dispatch(loadNotes());
 	};
 
 	return (
