@@ -25,6 +25,7 @@ function App() {
 
 	const onSave = () => {
 		dispatch(saveNotes(notes));
+		alert("your note has been saved 💌");
 	};
 
 	const onLoad = () => {
